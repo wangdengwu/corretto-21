@@ -312,7 +312,7 @@ public class AccessibleObject implements AnnotatedElement {
     }
 
     final void checkCanSetAccessible(Class<?> caller, Class<?> declaringClass) {
-        checkCanSetAccessible(caller, declaringClass, true);
+        checkCanSetAccessible(caller, declaringClass, false);
     }
 
     private boolean checkCanSetAccessible(Class<?> caller,
